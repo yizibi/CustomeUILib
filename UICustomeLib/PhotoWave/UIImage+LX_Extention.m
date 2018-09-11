@@ -10,6 +10,7 @@
 #import "UIImage+LX_Extention.h"
 
 @implementation UIImage (LX_Extention)
+
 + (instancetype)imageWithColor:(UIColor *)color
 {
     CGRect rect = CGRectMake(0.0f, 0.0f, 10.0f, 10.0f);
@@ -62,7 +63,6 @@
     CGContextAddEllipseInRect(imgRef, rect);
     
     CGContextClip(imgRef);
-    
     [self drawInRect:rect];
     
     UIImage *newImg = UIGraphicsGetImageFromCurrentImageContext();

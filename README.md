@@ -5,9 +5,9 @@
 
 ©️本文首发个人博客
 
-* [玉米棒](https://lucyios.github.io/)
+* [一之笔](https://yizibi.github.io/)
 
-* [iOS给一张图片添加带有雷达效果的标记，类似地图标记位置]()
+* [iOS给一张图片添加带有雷达效果的标记，类似地图标记位置](https://yizibi.github.io/2018/09/10/iOS%E7%BB%99%E4%B8%80%E5%BC%A0%E5%9B%BE%E7%89%87%E6%B7%BB%E5%8A%A0%E5%B8%A6%E6%9C%89%E9%9B%B7%E8%BE%BE%E6%95%88%E6%9E%9C%E7%9A%84%E6%A0%87%E8%AE%B0-%E7%B1%BB%E4%BC%BC%E5%9C%B0%E5%9B%BE%E6%A0%87%E8%AE%B0%E4%BD%8D%E7%BD%AE/)
 
 
 > 在实际开发过程中，往往有这样一种场景，比如，某一个地方需要添加一个标记，这个标记要足够醒目，一眼就可以让用户知道，标记的地方在哪里，就像百度地图或者谷歌地图里面的，用来标记用户位置的标记，以一种“雷达”效果，或者说“水波”效果，动态闪烁，引起用户的注意，并且，背景图片是可以放大的；
@@ -15,9 +15,9 @@
 
 以上就是我们产品的需求，以下就是最终的实现效果；
 
-![报警点展示](http://o9zpq25pv.bkt.clouddn.com/lucyBlog/image.gif)
+![报警点展示](http://upload-images.jianshu.io/upload_images/1360502-778bd79e7db08509.gif)
 
-> [点击获取Demo](https://github.com/lucyios/CustomeUILib)
+> [点击获取Demo](https://github.com/yizibi/CustomeUILib)
 
 ### 可行性
 

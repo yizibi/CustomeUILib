@@ -11,6 +11,10 @@
 		72ED1D8EF081C5A7DB323330 /* libPods-UICustomeLibTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C4897CD85FBE9F84733B0F95 /* libPods-UICustomeLibTests.a */; };
 		8D0668582147C4A100080C7A /* UIImage+LX_Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D0668562147C4A100080C7A /* UIImage+LX_Extention.m */; };
 		8D06685A2147DC9E00080C7A /* map.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D0668592147DC9E00080C7A /* map.png */; };
+		8D2DF5FF21FF3C2600C75875 /* LXAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2DF5FE21FF3C2600C75875 /* LXAnimationViewController.m */; };
+		8D2DF60221FF3CA600C75875 /* LXMusicPlayingView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D2DF60121FF3CA600C75875 /* LXMusicPlayingView.m */; };
+		8D2DF60521FF480100C75875 /* Oval 10@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2DF60321FF480100C75875 /* Oval 10@2x.png */; };
+		8D2DF60621FF480100C75875 /* Oval 10@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8D2DF60421FF480100C75875 /* Oval 10@3x.png */; };
 		8D90D8E12147C05D002FEF97 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D90D8E02147C05D002FEF97 /* AppDelegate.m */; };
 		8D90D8E72147C05D002FEF97 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D90D8E52147C05D002FEF97 /* Main.storyboard */; };
 		8D90D8E92147C05E002FEF97 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8D90D8E82147C05E002FEF97 /* Assets.xcassets */; };
@@ -50,6 +54,12 @@
 		8D0668562147C4A100080C7A /* UIImage+LX_Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+LX_Extention.m"; sourceTree = "<group>"; };
 		8D0668572147C4A100080C7A /* UIImage+LX_Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+LX_Extention.h"; sourceTree = "<group>"; };
 		8D0668592147DC9E00080C7A /* map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = map.png; sourceTree = "<group>"; };
+		8D2DF5FD21FF3C2600C75875 /* LXAnimationViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXAnimationViewController.h; sourceTree = "<group>"; };
+		8D2DF5FE21FF3C2600C75875 /* LXAnimationViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXAnimationViewController.m; sourceTree = "<group>"; };
+		8D2DF60021FF3CA600C75875 /* LXMusicPlayingView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LXMusicPlayingView.h; sourceTree = "<group>"; };
+		8D2DF60121FF3CA600C75875 /* LXMusicPlayingView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LXMusicPlayingView.m; sourceTree = "<group>"; };
+		8D2DF60321FF480100C75875 /* Oval 10@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Oval 10@2x.png"; sourceTree = "<group>"; };
+		8D2DF60421FF480100C75875 /* Oval 10@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Oval 10@3x.png"; sourceTree = "<group>"; };
 		8D90D8DC2147C05D002FEF97 /* UICustomeLib.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UICustomeLib.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8D90D8DF2147C05D002FEF97 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		8D90D8E02147C05D002FEF97 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -168,6 +178,12 @@
 				8D90D8E02147C05D002FEF97 /* AppDelegate.m */,
 				8D90D9112147C108002FEF97 /* TableViewController.h */,
 				8D90D9122147C108002FEF97 /* TableViewController.m */,
+				8D2DF5FD21FF3C2600C75875 /* LXAnimationViewController.h */,
+				8D2DF5FE21FF3C2600C75875 /* LXAnimationViewController.m */,
+				8D2DF60021FF3CA600C75875 /* LXMusicPlayingView.h */,
+				8D2DF60121FF3CA600C75875 /* LXMusicPlayingView.m */,
+				8D2DF60321FF480100C75875 /* Oval 10@2x.png */,
+				8D2DF60421FF480100C75875 /* Oval 10@3x.png */,
 				8D90D8E52147C05D002FEF97 /* Main.storyboard */,
 				8D90D8E82147C05E002FEF97 /* Assets.xcassets */,
 				8D90D8EA2147C05E002FEF97 /* LaunchScreen.storyboard */,
@@ -328,7 +344,9 @@
 				8D90D8EC2147C05E002FEF97 /* LaunchScreen.storyboard in Resources */,
 				8D90D91D2147C242002FEF97 /* resource.xcassets in Resources */,
 				8D90D8E92147C05E002FEF97 /* Assets.xcassets in Resources */,
+				8D2DF60621FF480100C75875 /* Oval 10@3x.png in Resources */,
 				8D90D8E72147C05D002FEF97 /* Main.storyboard in Resources */,
+				8D2DF60521FF480100C75875 /* Oval 10@2x.png in Resources */,
 				8D06685A2147DC9E00080C7A /* map.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,11 +432,13 @@
 				8D90D8EF2147C05E002FEF97 /* main.m in Sources */,
 				8D90D9132147C108002FEF97 /* TableViewController.m in Sources */,
 				8D90D91E2147C242002FEF97 /* WMPhotoBrowser.m in Sources */,
+				8D2DF60221FF3CA600C75875 /* LXMusicPlayingView.m in Sources */,
 				8D90D91C2147C242002FEF97 /* UIView+WMFrame.m in Sources */,
 				8D90D8E12147C05D002FEF97 /* AppDelegate.m in Sources */,
 				8D90D91F2147C242002FEF97 /* WMPhotoBrowserCell.m in Sources */,
 				8D0668582147C4A100080C7A /* UIImage+LX_Extention.m in Sources */,
 				8D90D9222147C2B2002FEF97 /* LXPositionView.m in Sources */,
+				8D2DF5FF21FF3C2600C75875 /* LXAnimationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
